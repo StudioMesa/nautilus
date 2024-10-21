@@ -39,7 +39,7 @@ h2 em {
 /*H2*/
 @media screen and (max-width: 767px) {
   h2 {
-    font-size: 2.4em;
+    font-size: 2.3em;
     letter-spacing: -0.03em !important;
   }
 }
