@@ -2096,6 +2096,7 @@ legend > div > div {
   color: var(--alt-color) !important;
 }
 .sqs-block-newsletter .newsletter-form-field-element:focus {
+  background: var(--secondary-color) !important;
   outline: 1px solid var(--accent-color) !important;
 }
 .sqs-block-newsletter .newsletter-form-field-element::placeholder {
