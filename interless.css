@@ -2164,7 +2164,8 @@ legend > div > div {
 .blog-basic-grid .blog-article-spacer {
   display: none;
 }
-.blog-basic-grid .blog-basic-grid--container.is-loaded {
+.blog-basic-grid .blog-basic-grid--container.is-loaded,
+.blog-basic-grid .blog-basic-grid--container:where(section[data-definition-name="website.components.blogList"] *) {
   background: var(--secondary-color) !important;
 }
 .blog-basic-grid--container .entry .blog-item,
